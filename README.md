@@ -1,6 +1,6 @@
 # datapod-for-react-2023
 
-This is an early version of my new Datapod-for-React framework, currently a React site created with Vite with Sass, React Router, qtools, Jest testing, a CLI page-creator tool, and TypeScript working backend and frontend.
+This is an early version of my new Datapod-for-React framework, currently a React site created with Vite and with the following features: Sass, React Router, qtools, Jest testing, a CLI page-creator tool, and TypeScript working backend and frontend.
 
 ![grafik](https://user-images.githubusercontent.com/446574/200960596-bdc5bd34-ca8c-4c03-9c0f-e67e9bf7d111.png)
 
