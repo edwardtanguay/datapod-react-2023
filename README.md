@@ -11,6 +11,10 @@ This is an early version of my new Datapod-for-React framework, currently a Reac
 - CLI with page component creator: `npm run cp`
 - (currently no API)
 
+## purpose
+
+- a starter site to build React sites with TypeScript on the frontend and backend
+
 ## frontend
 
 - React site made with Vite
