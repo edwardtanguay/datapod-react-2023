@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const name = process.argv[2];
+const name:string = process.argv[2];
 
 if (name === undefined) {
 	console.log('SCRIPT: cp');
