@@ -4,15 +4,16 @@ This is a minimal React site created with Vite with Sass, React Router, CLI comm
 
 ![grafik](https://user-images.githubusercontent.com/446574/200960596-bdc5bd34-ca8c-4c03-9c0f-e67e9bf7d111.png)
 
-## includes:
+## includes
 
 - TypeScript
 - Sass
-- React Router (v6) 
+- React Router (v6)
 - only one Sass file (`App.scss`) - the file `index.css` was deleted
 - CLI with page component creator: `npm run cp`
 - page-load flicker bug fixed in index.html:
-```
+
+```html
   <style>
     body {
       background-color: #333;
