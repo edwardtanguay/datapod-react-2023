@@ -7,19 +7,11 @@ This is a minimal Vite React site with Sass, React Router, CLI command, and qtoo
 ## includes
 
 - TypeScript
+- ES6 modules (`import` instead of `require`)
 - Sass
 - React Router (v6)
-- only one Sass file (`App.scss`) - the file `index.css` was deleted
 - CLI with page component creator: `npm run cp`
-- page-load flicker bug fixed in index.html:
-
-```html
-  <style>
-    body {
-      background-color: #333;
-    }
-  </style>
-```
+- qtools (quick tools = helpful functions)
 
 ## how to install
 
