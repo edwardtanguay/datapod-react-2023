@@ -1,7 +1,9 @@
+import * as qstr from '../qtools/qstr';
+
 export const PageWelcome = () => {
 	return (
 		<>
-			<p>Welcome to this site.</p>
+			<p>{qstr.sentencize('welcome to this site')}</p>
 		</>
 	);
 };
