@@ -1,4 +1,5 @@
 import fs from 'fs';
+import * as qstr from '../src/qtools/qstr.js';
 
 const name:string = process.argv[2];
 
@@ -6,7 +7,7 @@ if (name === undefined) {
 	console.log('SCRIPT: cp');
 	console.log('NAME: create page');
 	console.log('-------------------------');
-	console.log('EXAMPLE: npm run cp Info');
+	console.log('EXAMPLE: npm run cp Test');
 	console.log('RESULT: creates page /scr/pages/PageInfo.tsx');
 	process.exit();
 } else {
@@ -14,7 +15,7 @@ if (name === undefined) {
 export const Page${name} = () => {
 	return (
 		<div className="page page${name}">
-			<p>This is the ${name} page.</p>
+			<p>${qstr.sentencize(`this is the ${name} page`)}</p>
 		</div>
 	);
 };

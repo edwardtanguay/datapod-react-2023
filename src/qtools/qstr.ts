@@ -1,4 +1,5 @@
-import * as qstr from './qstr';
+import * as qstr from './qstr.js';
+
 /**
  * Capitalize the first letter of a string.
  *
