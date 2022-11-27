@@ -27,8 +27,13 @@ This is an early version of my new Datapod-for-React framework, currently a Reac
 
 ## how to install
 
-- download zip
-- copy all files to new directory, e.g. `/home/yourname/projects/site001`
-- open VSCode in that directory (`code .`)
+- go to projects directory
+- `git clone git@github.com:edwardtanguay/datapod-react-2023.git name-of-your-site`
+- cd name-of-your-site
+- `rm -rf .git` - removes the Git repository 
+- `git init -b main` - creates your own Git Repository
+- `code .` - open project in VSCode
+- open VSCode terminal
 - `npm i`
 - `npm run dev`
+- click on provided localhost URL
