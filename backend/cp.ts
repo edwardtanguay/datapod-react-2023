@@ -1,5 +1,5 @@
 import fs from 'fs';
-import * as qstr from '../src/qtools/qstr.js';
+import * as qstr from '../src/qtools/qstr';
 
 const name:string = process.argv[2];
 

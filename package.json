@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "npm run testforbuild && tsc && vite build",
     "preview": "vite preview",
-    "cp": "npx ts-node-esm backend/cp.ts",
+    "cp": "npx ts-node-esm --experimental-specifier-resolution=node backend/cp.ts",
     "testforbuild": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch"
   },
