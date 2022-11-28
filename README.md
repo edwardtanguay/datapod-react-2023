@@ -22,7 +22,9 @@ This is an early version of my new Datapod-for-React framework, currently a Reac
 - ES6 modules
 - Sass
 - React Router (v6)
-- qtools (useful functions that can be used throughout the application)
+- qtools 
+  - useful functions that can be used throughout the application
+  - accessible from frontend and backend when these are in the same project
 - Jest testing for qtools, site will not build without passing all tests
 
 ## how to install
